@@ -26,6 +26,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Display
 TARGET_SCREEN_DENSITY := 420
+TARGET_USES_VULKAN := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := lavender-perf_defconfig
