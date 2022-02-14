@@ -16,7 +16,8 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libstdc++.vendor
+    libstdc++.vendor \
+    GrapheneOSCamera
 
 # Consumerir
 BOARD_HAVE_IR := true
