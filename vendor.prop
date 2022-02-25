@@ -17,5 +17,8 @@ dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.heapminfree=512k
 dalvik.vm.heapmaxfree=8m
 
+# Perf
+ro.vendor.perf.scroll_opt=true
+
 # SurfaceFlinger
 ro.surface_flinger.has_wide_color_display=true
