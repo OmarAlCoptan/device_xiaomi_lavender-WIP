@@ -14,6 +14,7 @@ $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 BLAZE_MAINTAINER := Coptan99
 TARGET_FACE_UNLOCK_SUPPORTED := true
 WITH_GAPPS := true
+BLAZE_BUILD_TYPE := OFFICIAL
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
