@@ -13,7 +13,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 BLAZE_MAINTAINER := Coptan99
 TARGET_FACE_UNLOCK_SUPPORTED := true
-WITH_GAPPS := true
 BLAZE_BUILD_TYPE := OFFICIAL
 
 # Inherit from lavender device
