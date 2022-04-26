@@ -33,10 +33,6 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     NotchBarKiller
 
-# Prebuilt Packages
-PRODUCT_PACKAGES += \
-    GCamGo
-
 # Power
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
