@@ -15,7 +15,7 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 FACE_UNLOCK_SUPPORTED := true
-CUSTOM_BUILD := COPTAN
+CUSTOM_BUILD := MOONI
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
